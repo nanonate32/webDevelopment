@@ -59,7 +59,7 @@ function recipeSearch(recipeData, selectedItems){
     for(let i = 0; i<recipeData.length; i++){
         let recipe = recipeData[i];
         let variations = recipe.variations;
-        for(let j = 0; j<variations.length; i++ ){
+        for(let j = 0; j<variations.length; j++ ){
             let materials = variations[j].materials;
             if(compareMaterials(materials,selectedItems)){
             alert(recipe.name);
