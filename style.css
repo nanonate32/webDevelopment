@@ -1,0 +1,32 @@
+body{
+margin: 0;
+}
+h1{   
+color:#E52521;
+
+    
+}
+#banner{
+    padding:50px;
+    text-align:center ;
+ background-color: #86a5a9;   
+}
+#tricooking{
+    width:400px;
+    margin:auto;
+}
+#recipePanel{
+    background-color:#86a5a9;
+    width:300px;
+    margin:auto;
+    text-align:center;
+    border-style:solid;
+    border-color:green;
+    margin-top:50px;
+}
+option{
+   background-color: darkolivegreen; 
+}
+select{
+    background-color: lightblue;
+}
